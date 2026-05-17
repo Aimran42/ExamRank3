@@ -1,0 +1,27 @@
+Write a function that transforms a string by alternating the case of alphabetic
+characters only. Non-alphabetic characters remain unchanged and are ignored for
+the purpose of alternation. The first alphabetic character should be lowercase,
+the second uppercase, the third lowercase, and so on.
+Function signature
+def string_sculptor(text: str) -> str:
+Examples
+Input
+string_sculptor("hello")
+Output
+"hElLo"
+Input
+string_sculptor("Hello World")
+Output
+"hElLo wOrLd"
+Input
+string_sculptor("aBc123def")
+Output
+"aBc123DeF"
+Input
+string_sculptor("Python3.9!")
+Output
+"pYtHoN3.9!"
+Input
+string_sculptor("")
+Output
+""
