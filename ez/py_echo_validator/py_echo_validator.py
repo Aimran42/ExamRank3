@@ -5,7 +5,8 @@ def echo_validator(text: str) -> bool:
     text = text.replace(" ", "")
     return text == text[::-1]
 
-# # dont push these test below
+# # ***dont push these test below***
+
 # valid = 0
 # if echo_validator("racecar"):
 #     valid += 1
