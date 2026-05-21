@@ -5,7 +5,8 @@ Write a function that checks if a string is a palindrome, ignoring spaces and ca
 
 Function signature
 ```python
-def echo_validator(text: str) -> bool:```
+def echo_validator(text: str) -> bool:
+```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -44,7 +45,8 @@ Write a function that mirrors a 2D matrix horizontally by reversing each row.
 
 Function signature
 ```python
-def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:```
+def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:
+```
 
 
 
@@ -76,8 +78,8 @@ Write a function that merges two sorted lists into one sorted list.
 
 Function signature
 ```python
-def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:```
-
+def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:
+```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -109,7 +111,8 @@ by a given amount. Non-alphabetic characters should remain unchanged.
 
 Function signature
 ```python
-def whisper_cipher(text: str, shift: int) -> str:```
+def whisper_cipher(text: str, shift: int) -> str:
+```
 
 
 
@@ -146,7 +149,8 @@ Write a function that sorts a list of strings according to multiple criteria:
 4. Equal strings will appear in the same order as in the input list.
 Function signature
 ```python
-def cryptic_sorter(strings: list[str]) -> list[str]:```
+def cryptic_sorter(strings: list[str]) -> list[str]:
+```
 
 
 
@@ -180,7 +184,8 @@ Two strings are permutations if they contain the same characters with the same f
 Function signature
 
 ```python
-def string_permutation_checker(s1: str, s2: str) -> bool:```
+def string_permutation_checker(s1: str, s2: str) -> bool:
+```
 
 
 
@@ -365,7 +370,8 @@ the second uppercase, the third lowercase, and so on.
 Function signature
    
 ```python
-def string_sculptor(text: str) -> str:```
+def string_sculptor(text: str) -> str:
+```
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```python Examples
