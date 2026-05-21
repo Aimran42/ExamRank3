@@ -4,7 +4,8 @@
 Write a function that checks if a string is a palindrome, ignoring spaces and case, only consider alphabetic characters for the comparison. The funct
 
 Function signature
-def echo_validator(text: str) -> bool:
+```python
+def echo_validator(text: str) -> bool:```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -42,7 +43,8 @@ False
 Write a function that mirrors a 2D matrix horizontally by reversing each row.
 
 Function signature
-def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:
+```python
+def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:```
 
 
 
@@ -73,7 +75,8 @@ Output
 Write a function that merges two sorted lists into one sorted list.
 
 Function signature
-def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:
+```python
+def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:```
 
 
 
@@ -105,7 +108,8 @@ Write a function that creates a simple cipher by shifting letters in a st
 by a given amount. Non-alphabetic characters should remain unchanged.
 
 Function signature
-def whisper_cipher(text: str, shift: int) -> str:
+```python
+def whisper_cipher(text: str, shift: int) -> str:```
 
 
 
@@ -141,7 +145,8 @@ Write a function that sorts a list of strings according to multiple criteria:
 3. Tertiary sort: By number of vowels (ascending, for same length and lexically equal)
 4. Equal strings will appear in the same order as in the input list.
 Function signature
-def cryptic_sorter(strings: list[str]) -> list[str]:
+```python
+def cryptic_sorter(strings: list[str]) -> list[str]:```
 
 
 
@@ -174,7 +179,8 @@ Write a function that determines if two strings are permutations of each other.
 Two strings are permutations if they contain the same characters with the same frequencies.
 Function signature
 
-def string_permutation_checker(s1: str, s2: str) -> bool:
+```python
+def string_permutation_checker(s1: str, s2: str) -> bool:```
 
 
 
@@ -219,8 +225,9 @@ Write a function that checks if brackets [], parentheses (), and braces {} are p
 balanced and correctly nested in a string. All others characters are ignored. Return True if balanced, False otherwise
 
 Function signature
+```python
 def bracket_validator(s: str) -> bool:
-
+```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -267,8 +274,9 @@ Write a function that converts a number from one base to another.
 Support bases from 2 to 36 inclusive, using digits 0-9 and letters A-Z for values 10-35. Return "ERROR" for invalid inputs (base, digits)
 
 Function signature
+```python
 def number_base_converter(number: str, from_base: int, to_base: int) -> str:
-
+```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -313,8 +321,10 @@ string. A valid pair consists of two adjacent digits where the second digit
 is exactly one greater than the first digit. A 9 followed by a 0 is NOT a valid pair
 and only consider consecutive characters that are both digits (0-9).
 Function signature
-def pattern_tracker(text: str) -> int:
 
+```python
+def pattern_tracker(text: str) -> int:
+```
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```python Examples
 Input
@@ -353,7 +363,9 @@ characters only. Non-alphabetic characters remain unchanged and are ignored for
 the purpose of alternation. The first alphabetic character should be lowercase,
 the second uppercase, the third lowercase, and so on.
 Function signature
-def string_sculptor(text: str) -> str:
+   
+```python
+def string_sculptor(text: str) -> str:```
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```python Examples
@@ -381,8 +393,10 @@ Output
 <h2>11<br>
 Write a function that rotates an array to the right by k positions, rotating right by k means the last k elements move to the front.
 Function signature
-def twist_sequence(arr: list[int], k: int) -> list[int]:
 
+```python
+def twist_sequence(arr: list[int], k: int) -> list[int]:
+```
 ---------------------------------------------------------------------------------------------------------------------------------------
 ```python Examples
 Input
