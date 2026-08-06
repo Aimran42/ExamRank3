@@ -1,4 +1,4 @@
-<h2> In this exam you need to validate 6 exercices, each one of them gives you 16 point but the last one gives 20 point (aka 100/100 in total), and you will get randomly one of these 11 exercices below. Good luck in your exam ;D
+<h2> In this exam you need to validate 6 exercices, each one of them gives you 16 point but the last one gives 20 point (aka 100/100 in total), and you will get randomly one of these 11 exercices below. Good luck in your exam ;D ^^
 <br><br>
 <h2>1<br>
 Write a function that checks if a string is a palindrome, ignoring spaces and case, only consider alphabetic characters for the comparison. The funct
