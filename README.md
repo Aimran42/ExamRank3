@@ -2,7 +2,7 @@
 <br><br>
 <h2>1<br>
 Write a function that checks if a string is a palindrome, ignoring spaces and case, only consider alphabetic characters for the comparison.
-
+ 
 Function signature
 ```python
 def echo_validator(text: str) -> bool:
